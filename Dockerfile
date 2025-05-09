@@ -6,7 +6,7 @@ RUN apt-get install --no-install-recommends --no-install-suggests -y \
       libtool autotools-dev make g++ git ruby wget libssl-dev
 
 WORKDIR /opt
-RUN git clone https://github.com/TheWover/donut.git
+RUN git clone https://github.com/localranga/donut.git
 WORKDIR /opt/donut
 RUN make -f Makefile
 
